@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+  --primary-color: #E8F7EE;
+  --secondary-color: #663F46;
+  --accent1-color: #3C362A;
+  --accent2-color: #C9D6EA;
+
+  --heading-font: 'Bree Serif', serif;
+  --paragraph-font: 'Roboto Condensed', serif;
+
+  --nav-background-color: var(--accent1-color);
+  --nav-link-color: white;
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-background-color: white;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+       
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', serif;;
+  color: var(--accent1-color);
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent2-color);
+}
+
+header  {
+  text-align: center;
+}
+
+p {
+  padding: 25px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+  border: 1px black solid;
+
+}
