@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Condensed:wght@300&display=swap");
+:root {
+  --primary-color: #e8f7ee;
+  --secondary-color: #663f46;
+  --accent1-color: #3c362a;
+  --accent2-color: #c9d6ea;
+
+  --heading-font: "Bree Serif", serif;
+  --paragraph-font: "Roboto Condensed", serif;
+
+  --nav-background-color: var(--accent1-color);
+  --nav-link-color: white;
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-background-color: white;
+}
+body {
+  font-family: "Bree Serif", serif;
+  max-width: 1200px;
+}
+
+h1,
+h2,
+h5,
+h3,
+h4,
+h6 {
+  color: var(--accent1-color);
+  text-align: center;
+}
+p {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+/* Header Section */
+header div img {
+  width: 100px;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  color: #fff;
+  font-size: 5rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background: rgba(92, 90, 90, 0.76);
+  padding: 2rem 4rem;
+  width: 89.4%;
+}
+.hero article {
+  position: absolute;
+  top: 325px;
+  left: 200px;
+  width: 800px;
+  height: 200px;
+  background: rgba(95, 92, 92, 0.493);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+}
+.hero article img {
+  width: 300px;
+  float: right;
+}
+.hero article p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+section img {
+  width: 300px;
+  display: block;
+}
+
+section h2 {
+  font-size: 3rem;
+  color: var(--accent1-color);
+}
+footer nav a img {
+  width: 30px;
+}
