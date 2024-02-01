@@ -13,9 +13,51 @@
   --nav-hover-link-color: var(--accent1-color);
   --nav-hover-background-color: white;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Bree Serif", serif;
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--accent1-color);
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: var(--primary-color);
+}
+
+nav ul li {
+  /* padding: 5px 20px; */
+  border: 1px solid var(--accent1-color);
+}
+
+nav a {
+  color: var(--accent1-color);
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
 }
 
 h1,
@@ -27,17 +69,10 @@ h6 {
   color: var(--accent1-color);
   text-align: center;
 }
-p {
-  font-size: 1rem;
-}
 
-a {
-  text-decoration: none;
-}
-/* Header Section */
-header div img {
-  width: 100px;
-}
+/* main */
+
+
 
 /* Hero Section */
 .hero {
@@ -81,15 +116,36 @@ header div img {
   font-size: 1.2rem;
 }
 
-section img {
-  width: 300px;
-  display: block;
-}
-
 section h2 {
   font-size: 3rem;
   color: var(--accent1-color);
 }
-footer nav a img {
+
+.adventure img {
+  width: 20%;
+  height: 170px;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  background-color: var(--accent1-color);
+  padding: 25px;
+  justify-content: space-between;
+}
+
+
+footer p {
+  color: var(--primary-color);
+  padding: 10px;
+}
+
+footer img {
   width: 30px;
+  /* border: 1px solid white; */
+}
+
+footer  a {
+  justify-items: right;
+  padding: 5px;
 }
